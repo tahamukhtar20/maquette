@@ -16,3 +16,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAQUETTE_AAF8B }}'
           projectId: maquette-aaf8b
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
